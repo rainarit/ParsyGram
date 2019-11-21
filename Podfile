@@ -8,6 +8,7 @@ target 'ParsyGram' do
   # Pods for ParsyGram
   pod "Parse"
   pod "Alamofire"
+  pod "AlamofireImage"
 
   target 'ParsyGramTests' do
     inherit! :search_paths
