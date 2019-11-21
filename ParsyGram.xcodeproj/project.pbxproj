@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E77585BA23865A65003E3F71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77585B923865A65003E3F71 /* AppDelegate.swift */; };
+		E77585BC23865A65003E3F71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77585BB23865A65003E3F71 /* SceneDelegate.swift */; };
+		E77585BE23865A65003E3F71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77585BD23865A65003E3F71 /* ViewController.swift */; };
+		E77585C123865A65003E3F71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77585BF23865A65003E3F71 /* Main.storyboard */; };
+		E77585C423865A65003E3F71 /* ParsyGram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E77585C223865A65003E3F71 /* ParsyGram.xcdatamodeld */; };
+		E77585C623865A67003E3F71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77585C523865A67003E3F71 /* Assets.xcassets */; };
+		E77585C923865A67003E3F71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77585C723865A67003E3F71 /* LaunchScreen.storyboard */; };
+		E77585D423865A68003E3F71 /* ParsyGramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77585D323865A68003E3F71 /* ParsyGramTests.swift */; };
+		E77585DF23865A68003E3F71 /* ParsyGramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77585DE23865A68003E3F71 /* ParsyGramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E77585D023865A68003E3F71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E77585AE23865A65003E3F71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E77585B523865A65003E3F71;
+			remoteInfo = ParsyGram;
+		};
+		E77585DB23865A68003E3F71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E77585AE23865A65003E3F71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E77585B523865A65003E3F71;
+			remoteInfo = ParsyGram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E77585B623865A65003E3F71 /* ParsyGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParsyGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77585B923865A65003E3F71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E77585BB23865A65003E3F71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E77585BD23865A65003E3F71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E77585C023865A65003E3F71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E77585C323865A65003E3F71 /* ParsyGram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ParsyGram.xcdatamodel; sourceTree = "<group>"; };
+		E77585C523865A67003E3F71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E77585C823865A67003E3F71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E77585CA23865A67003E3F71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E77585CF23865A68003E3F71 /* ParsyGramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParsyGramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77585D323865A68003E3F71 /* ParsyGramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsyGramTests.swift; sourceTree = "<group>"; };
+		E77585D523865A68003E3F71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E77585DA23865A68003E3F71 /* ParsyGramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParsyGramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77585DE23865A68003E3F71 /* ParsyGramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsyGramUITests.swift; sourceTree = "<group>"; };
+		E77585E023865A68003E3F71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E77585B323865A65003E3F71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77585CC23865A68003E3F71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77585D723865A68003E3F71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E77585AD23865A65003E3F71 = {
+			isa = PBXGroup;
+			children = (
+				E77585B823865A65003E3F71 /* ParsyGram */,
+				E77585D223865A68003E3F71 /* ParsyGramTests */,
+				E77585DD23865A68003E3F71 /* ParsyGramUITests */,
+				E77585B723865A65003E3F71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E77585B723865A65003E3F71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E77585B623865A65003E3F71 /* ParsyGram.app */,
+				E77585CF23865A68003E3F71 /* ParsyGramTests.xctest */,
+				E77585DA23865A68003E3F71 /* ParsyGramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E77585B823865A65003E3F71 /* ParsyGram */ = {
+			isa = PBXGroup;
+			children = (
+				E77585B923865A65003E3F71 /* AppDelegate.swift */,
+				E77585BB23865A65003E3F71 /* SceneDelegate.swift */,
+				E77585BD23865A65003E3F71 /* ViewController.swift */,
+				E77585BF23865A65003E3F71 /* Main.storyboard */,
+				E77585C523865A67003E3F71 /* Assets.xcassets */,
+				E77585C723865A67003E3F71 /* LaunchScreen.storyboard */,
+				E77585CA23865A67003E3F71 /* Info.plist */,
+				E77585C223865A65003E3F71 /* ParsyGram.xcdatamodeld */,
+			);
+			path = ParsyGram;
+			sourceTree = "<group>";
+		};
+		E77585D223865A68003E3F71 /* ParsyGramTests */ = {
+			isa = PBXGroup;
+			children = (
+				E77585D323865A68003E3F71 /* ParsyGramTests.swift */,
+				E77585D523865A68003E3F71 /* Info.plist */,
+			);
+			path = ParsyGramTests;
+			sourceTree = "<group>";
+		};
+		E77585DD23865A68003E3F71 /* ParsyGramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E77585DE23865A68003E3F71 /* ParsyGramUITests.swift */,
+				E77585E023865A68003E3F71 /* Info.plist */,
+			);
+			path = ParsyGramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E77585B523865A65003E3F71 /* ParsyGram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77585E323865A68003E3F71 /* Build configuration list for PBXNativeTarget "ParsyGram" */;
+			buildPhases = (
+				E77585B223865A65003E3F71 /* Sources */,
+				E77585B323865A65003E3F71 /* Frameworks */,
+				E77585B423865A65003E3F71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParsyGram;
+			productName = ParsyGram;
+			productReference = E77585B623865A65003E3F71 /* ParsyGram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E77585CE23865A68003E3F71 /* ParsyGramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77585E623865A68003E3F71 /* Build configuration list for PBXNativeTarget "ParsyGramTests" */;
+			buildPhases = (
+				E77585CB23865A68003E3F71 /* Sources */,
+				E77585CC23865A68003E3F71 /* Frameworks */,
+				E77585CD23865A68003E3F71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E77585D123865A68003E3F71 /* PBXTargetDependency */,
+			);
+			name = ParsyGramTests;
+			productName = ParsyGramTests;
+			productReference = E77585CF23865A68003E3F71 /* ParsyGramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E77585D923865A68003E3F71 /* ParsyGramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77585E923865A68003E3F71 /* Build configuration list for PBXNativeTarget "ParsyGramUITests" */;
+			buildPhases = (
+				E77585D623865A68003E3F71 /* Sources */,
+				E77585D723865A68003E3F71 /* Frameworks */,
+				E77585D823865A68003E3F71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E77585DC23865A68003E3F71 /* PBXTargetDependency */,
+			);
+			name = ParsyGramUITests;
+			productName = ParsyGramUITests;
+			productReference = E77585DA23865A68003E3F71 /* ParsyGramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E77585AE23865A65003E3F71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = rraina;
+				TargetAttributes = {
+					E77585B523865A65003E3F71 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					E77585CE23865A68003E3F71 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = E77585B523865A65003E3F71;
+					};
+					E77585D923865A68003E3F71 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = E77585B523865A65003E3F71;
+					};
+				};
+			};
+			buildConfigurationList = E77585B123865A65003E3F71 /* Build configuration list for PBXProject "ParsyGram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E77585AD23865A65003E3F71;
+			productRefGroup = E77585B723865A65003E3F71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E77585B523865A65003E3F71 /* ParsyGram */,
+				E77585CE23865A68003E3F71 /* ParsyGramTests */,
+				E77585D923865A68003E3F71 /* ParsyGramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E77585B423865A65003E3F71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77585C923865A67003E3F71 /* LaunchScreen.storyboard in Resources */,
+				E77585C623865A67003E3F71 /* Assets.xcassets in Resources */,
+				E77585C123865A65003E3F71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77585CD23865A68003E3F71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77585D823865A68003E3F71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E77585B223865A65003E3F71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77585C423865A65003E3F71 /* ParsyGram.xcdatamodeld in Sources */,
+				E77585BE23865A65003E3F71 /* ViewController.swift in Sources */,
+				E77585BA23865A65003E3F71 /* AppDelegate.swift in Sources */,
+				E77585BC23865A65003E3F71 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77585CB23865A68003E3F71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77585D423865A68003E3F71 /* ParsyGramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77585D623865A68003E3F71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77585DF23865A68003E3F71 /* ParsyGramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E77585D123865A68003E3F71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E77585B523865A65003E3F71 /* ParsyGram */;
+			targetProxy = E77585D023865A68003E3F71 /* PBXContainerItemProxy */;
+		};
+		E77585DC23865A68003E3F71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E77585B523865A65003E3F71 /* ParsyGram */;
+			targetProxy = E77585DB23865A68003E3F71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E77585BF23865A65003E3F71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E77585C023865A65003E3F71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E77585C723865A67003E3F71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E77585C823865A67003E3F71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E77585E123865A68003E3F71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E77585E223865A68003E3F71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E77585E423865A68003E3F71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3G7AB3WQT6;
+				INFOPLIST_FILE = ParsyGram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rraina.ParsyGram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E77585E523865A68003E3F71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3G7AB3WQT6;
+				INFOPLIST_FILE = ParsyGram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rraina.ParsyGram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E77585E723865A68003E3F71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3G7AB3WQT6;
+				INFOPLIST_FILE = ParsyGramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rraina.ParsyGramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParsyGram.app/ParsyGram";
+			};
+			name = Debug;
+		};
+		E77585E823865A68003E3F71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3G7AB3WQT6;
+				INFOPLIST_FILE = ParsyGramTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rraina.ParsyGramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParsyGram.app/ParsyGram";
+			};
+			name = Release;
+		};
+		E77585EA23865A68003E3F71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3G7AB3WQT6;
+				INFOPLIST_FILE = ParsyGramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rraina.ParsyGramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParsyGram;
+			};
+			name = Debug;
+		};
+		E77585EB23865A68003E3F71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3G7AB3WQT6;
+				INFOPLIST_FILE = ParsyGramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rraina.ParsyGramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParsyGram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E77585B123865A65003E3F71 /* Build configuration list for PBXProject "ParsyGram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77585E123865A68003E3F71 /* Debug */,
+				E77585E223865A68003E3F71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77585E323865A68003E3F71 /* Build configuration list for PBXNativeTarget "ParsyGram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77585E423865A68003E3F71 /* Debug */,
+				E77585E523865A68003E3F71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77585E623865A68003E3F71 /* Build configuration list for PBXNativeTarget "ParsyGramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77585E723865A68003E3F71 /* Debug */,
+				E77585E823865A68003E3F71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77585E923865A68003E3F71 /* Build configuration list for PBXNativeTarget "ParsyGramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77585EA23865A68003E3F71 /* Debug */,
+				E77585EB23865A68003E3F71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E77585C223865A65003E3F71 /* ParsyGram.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E77585C323865A65003E3F71 /* ParsyGram.xcdatamodel */,
+			);
+			currentVersion = E77585C323865A65003E3F71 /* ParsyGram.xcdatamodel */;
+			path = ParsyGram.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E77585AE23865A65003E3F71 /* Project object */;
+}
