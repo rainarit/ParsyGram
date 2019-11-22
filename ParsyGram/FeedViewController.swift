@@ -30,6 +30,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         let query = PFQuery(className:"Posts")
+        query.order(byDescending: "createdAt")
         query.includeKey("author")
         query.limit = 20
         
