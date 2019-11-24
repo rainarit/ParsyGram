@@ -21,6 +21,7 @@
 		E77585EF23866E96003E3F71 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77585ED23866E96003E3F71 /* LoginViewController.swift */; };
 		E77585F1238682BA003E3F71 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77585F0238682BA003E3F71 /* CameraViewController.swift */; };
 		E77585F32386A312003E3F71 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77585F22386A312003E3F71 /* PostCell.swift */; };
+		E77585F5238B33E6003E3F71 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77585F4238B33E6003E3F71 /* CommentCell.swift */; };
 		EA4C24CD96B49E29BB5DFFA3 /* Pods_ParsyGramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80247B7C7317088868E2DBEE /* Pods_ParsyGramUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +69,7 @@
 		E77585ED23866E96003E3F71 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = /Users/rraina/Desktop/CAREER/CodePath/ParsyGram/ParsyGram/LoginViewController.swift; sourceTree = "<absolute>"; };
 		E77585F0238682BA003E3F71 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		E77585F22386A312003E3F71 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		E77585F4238B33E6003E3F71 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		FD30060D97DA2898C4EE2B77 /* Pods-ParsyGram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParsyGram.debug.xcconfig"; path = "Target Support Files/Pods-ParsyGram/Pods-ParsyGram.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -150,6 +152,7 @@
 				E77585B923865A65003E3F71 /* AppDelegate.swift */,
 				E77585BB23865A65003E3F71 /* SceneDelegate.swift */,
 				E77585BF23865A65003E3F71 /* Main.storyboard */,
+				E77585F4238B33E6003E3F71 /* CommentCell.swift */,
 				E77585F22386A312003E3F71 /* PostCell.swift */,
 				E77585F0238682BA003E3F71 /* CameraViewController.swift */,
 				E77585ED23866E96003E3F71 /* LoginViewController.swift */,
@@ -408,6 +411,7 @@
 				E77585EF23866E96003E3F71 /* LoginViewController.swift in Sources */,
 				E77585BC23865A65003E3F71 /* SceneDelegate.swift in Sources */,
 				E77585F1238682BA003E3F71 /* CameraViewController.swift in Sources */,
+				E77585F5238B33E6003E3F71 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

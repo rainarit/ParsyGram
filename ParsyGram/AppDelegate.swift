@@ -24,6 +24,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 configuration.server = "https://parsygram.herokuapp.com/parse"
             })
         )
+        if PFUser.current() != nil {
+            let main = UIStoryboard(name: "Main", bundle: nil)
+            let feedNavigationController = main.instantiateViewController(identifier: "FeedNavigationController")
+        }
         return true
     }
 
